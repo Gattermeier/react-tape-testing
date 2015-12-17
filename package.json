@@ -1,0 +1,37 @@
+{
+  "name": "react-tape",
+  "version": "1.0.0",
+  "babel": {
+    "presets": [
+      "es2015",
+      "react",
+      "stage-0"
+    ]
+  },
+  "description": "Unit testing React components with Tape in ES6",
+  "scripts": {
+    "test": "babel-tape-runner tests/**/*.js | faucet"
+  },
+  "keywords": [
+    "tape",
+    "react",
+    "unit",
+    "test",
+    "testing"
+  ],
+  "author": "Matthias Gattermeier",
+  "devDependencies": {
+    "babel-core": "^6.3.17",
+    "babel-preset-es2015": "^6.3.13",
+    "babel-preset-react": "^6.3.13",
+    "babel-preset-stage-0": "^6.3.13",
+    "babel-tape-runner": "^2.0.0",
+    "extend-tape": "^1.1.0",
+    "faucet": "0.0.1",
+    "react": "^0.14.3",
+    "react-addons-test-utils": "^0.14.3",
+    "react-unit": "^1.1.1",
+    "tape": "^4.2.2",
+    "tape-jsx-equals": "^1.0.0"
+  }
+}
